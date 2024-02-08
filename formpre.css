@@ -1,0 +1,155 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url( https://cdn.pixabay.com/photo/2024/01/27/01/44/ai-generated-8535118_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.main
+{
+    /* background-image: url(  https://cdn.pixabay.com/photo/2024/01/27/01/44/ai-generated-8535118_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+form
+{
+    width: 400px;
+    background-color: transparent;
+    color: white;
+    padding: 25px 30px;
+    border-radius: 20px;
+    border: 1px solid white;
+
+
+
+}
+    .main:hover
+    {
+        transition: 1s ease-in-out;
+        transform: scale(0.9);
+        /* display: block; */
+        /* box-sizing: border-box; */
+    }
+h1
+{
+    text-align: center;
+    font-size: 35px;
+}
+.text
+{
+    width: 100%;
+    /* background: brown; */
+    margin: 15px 0;
+
+}
+.text input
+{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 7px 15px;
+    font-size: 17px;
+}
+.check a{
+    text-decoration: none;
+    color: white;
+}
+.check
+{
+    text-align: end;
+    margin-right: 10px;
+}
+button
+{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    border-radius: 45px;
+    color: gray;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 0 10px rgb(0, 0, 0.1);
+    margin: 10px 0;
+}
+.res
+{
+    text-align: center;
+    font-size: 15px;
+    margin: 10px;
+    font-size: 20px;
+}
+.res a{
+    color: white;
+    text-decoration: none;
+}
+header
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+    /* background-image: url(https://cdn.pixabay.com/photo/2024/01/27/01/44/ai-generated-8535118_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover */
+    color: white;
+    padding: 0 100px;
+}
+.list li
+{
+    list-style: none;
+    
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.links a{
+text-decoration: none;
+padding: 20px;
+font-size: 25px;
+color: white;
+ 
+ 
+}
+.links li :hover 
+{
+    text-decoration: underline;
+    transition: 4s;
+    transform: rotate(360deg);
+    font-size: 35px;
+    text-shadow: 10px 10px 10px black;
+    color: red;
+    display: block;
+
+}
+/* .links a:hover
+{
+    transition: 2s;
+    transform: rotate(180deg);
+    color: red;
+} */
+
+
+
+
